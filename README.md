@@ -2,32 +2,6 @@
 
 A responsive, recruiter- and PI-facing research portfolio for **Bhuvaneshwari M.C.**, designed for PhD opportunities and semiconductor / quantum-device R&D roles.
 
-## Visual concept
-
-The design uses a custom **semiconductor observatory / research foundry** language rather than a generic developer template:
-
-- mineral-ivory background with ultraviolet, plasma-orange, ion-blue and signal-lime accents
-- wafer-map hero visual with scan markers
-- illustrative AlGaN / 2DEG / GaN heterostructure stack
-- measurement-trace readout
-- editorial research chapters instead of repeated glass cards
-- band-diagram visual connecting experiment and computation
-- staggered research-path timeline
-- dark technical project index with category-specific signal bars
-
-## Portfolio story
-
-The site is structured as a research narrative rather than a long digital résumé:
-
-1. **Why interfaces** — how the Si-QD thesis motivates a broader interest in surfaces, passivation and device behavior.
-2. **Device direction** — the fabricate → characterize → extract → model loop.
-3. **The path** — electronics → ISRO instrumentation → KTH cleanroom and characterization → Si-QD thesis → independent device simulation.
-4. **Flagship work** — six selected projects that establish experimental and computational depth.
-5. **Lab + model toolkit** — process, metrology, semiconductor physics, simulation and quantum-device tools.
-6. **Close the loop** — a band-diagram-led section connecting measurement to physical modelling.
-7. **Project index** — a growing documented project set with search and category filters; newer local projects can be added as they are pushed publicly.
-8. **Foundation and momentum** — education, recognition and credentials.
-9. **Research fit and contact** — evidence-based positioning for PhD and R&D opportunities.
 
 ## Technology
 
@@ -71,25 +45,6 @@ python -m http.server 8000
 
 Open `http://localhost:8000` in a browser.
 
-## Deploy with GitHub Pages
-
-1. Create a new GitHub repository, for example `bhuvaneshwari-portfolio`.
-2. Place the contents of this folder at the repository root.
-3. Commit and push:
-
-```bash
-git init
-git add .
-git commit -m "Launch research portfolio"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/bhuvaneshwari-portfolio.git
-git push -u origin main
-```
-
-4. In GitHub, open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select branch **main** and folder **/(root)**.
-7. Save and wait for the Pages deployment to complete.
 
 ## Updating content
 
